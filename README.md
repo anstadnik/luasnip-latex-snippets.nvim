@@ -11,8 +11,6 @@ UltiSnips felt unbearably slow. See
 
 ## Installation
 
-Depends on [vimtex](https://github.com/lervag/vimtex) to determine if the
-cursor is within math mode.
 
 Can be installed like any neovim plugin. If using
 [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim):
@@ -20,7 +18,7 @@ Can be installed like any neovim plugin. If using
 ```lua
 use {
   "iurimateus/luasnip-latex-snippets.nvim",
-  requires = { "L3MON4D3/LuaSnip", "lervag/vimtex" },
+  requires = { "L3MON4D3/LuaSnip" },
   ft = "tex",
 }
 ```
